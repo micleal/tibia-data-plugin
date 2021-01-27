@@ -1,0 +1,16 @@
+{
+  "name": "tibia-data-plugin",
+  "version": "1.0.0",
+  "main": "lib/index.ts",
+  "license": "MIT",
+  "types": "index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "@types/request": "^2.48.5"
+  }
+}

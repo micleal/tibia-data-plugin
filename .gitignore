@@ -1,0 +1,12 @@
+# Logs
+*.log
+
+# VS Config
+.vscode
+
+# modules
+/node_modules
+
+# distribution
+/build
+/release
