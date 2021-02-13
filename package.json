@@ -1,16 +1,29 @@
 {
-  "name": "tibia-data-plugin",
-  "version": "1.0.0",
-  "main": "lib/index.ts",
-  "license": "MIT",
-  "types": "index.d.ts",
-  "scripts": {
-    "build": "tsc"
-  },
-  "dependencies": {
-    "request": "^2.88.2"
-  },
-  "devDependencies": {
-    "@types/request": "^2.48.5"
-  }
+	"name": "tibia-data-plugin",
+	"version": "1.0.0",
+	"main": "src/index.js",
+	"types": "./typings/index.d.ts",
+	"type": "module",
+	"license": "MIT",
+	"author": "Michael Anthony Leal Costa <MiCLeal@users.noreply.github.com>",
+	"repository": "git+https://github.com/MiCLeal/tibia-data-plugin.git",
+	"exports": {
+		".": [
+			{
+				"require": "./src/index.js"
+			},
+			"./src/index.js"
+		]
+	},
+	"scripts": {
+		"testts": "node ./test.ts",
+		"test": "node ./test.js",
+		"build": "tsc"
+	},
+	"dependencies": {
+		"request": "^2.88.2"
+	},
+	"devDependencies": {
+		"@types/request": "^2.48.5"
+	}
 }
