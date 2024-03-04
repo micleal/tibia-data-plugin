@@ -1,1 +1,0 @@
-exports.MAIN_URI = 'https://api.tibiadata.com/v2'

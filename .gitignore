@@ -5,8 +5,10 @@
 .vscode
 
 # modules
-/node_modules
+node_modules
 
 # distribution
 /build
 /release
+dist
+
