@@ -1,20 +1,13 @@
 {
   "name": "tibia-data-plugin",
   "version": "1.0.0",
-  "main": "dist/cjs/index.js",
-  "module": "dist/esm/index.js",
-  "files": [
-    "dist"
-  ],
-  "types": "dist/index.d.ts",
   "license": "MIT",
   "author": "Michael Anthony Leal Costa <MiCLeal@users.noreply.github.com>",
   "repository": "git+https://github.com/MiCLeal/tibia-data-plugin.git",
   "scripts": {
     "build": "rollup -c",
     "build:watch": "pnpm build --watch",
-    "dev": "nodemon",
-    "nodemon": "nodemon ."
+    "dev": "nodemon src/index.ts"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^25.0.0",
@@ -32,6 +25,7 @@
     "prettier": "^2.8.8",
     "rollup": "^3.22.0",
     "rollup-plugin-dts": "^5.3.0",
+    "ts-node": "^10.9.2",
     "tslib": "^2.5.2",
     "typescript": "^5.0.4"
   }

@@ -1,6 +1,6 @@
 import { DateTime } from 'luxon'
 
-export default interface Character {
+export interface Character {
   name: string
   title?: string
   sex: string
